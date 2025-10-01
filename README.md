@@ -1,10 +1,9 @@
 # <img src="https://emojis.slackmojis.com/emojis/images/1643515178/7307/blob-cute.gif?16430" width="30"/> **Hey there, I'm Nishtha!**
 
-<div align="center">
-
 <p align="center">
-  <img src="./banner.svg" alt="Animated Banner" />
+  <img src="./banner.webp" alt="Animated Banner" />
 </p>
+
 
 
 </div>
