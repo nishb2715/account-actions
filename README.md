@@ -82,7 +82,7 @@
 
 ---
 
-## 🎲 ML Fun Facts & Mind-Blowers!
+## ML Easter Eggs
 
 **Click to reveal some wild AI truths!** 👇
 
@@ -94,13 +94,6 @@ In 2012, Knight Capital's trading algorithm had a bug that caused it to buy high
 **Lesson:** Always test your models in production-like environments!
 </details>
 
-<details>
-<summary>🐱 AI thought dumbbells were arms (seriously)</summary>
-
-A neural network trained to detect dumbbells learned to recognize **human arms** instead, because every training image had someone holding them! When shown a dumbbell on a table, it failed miserably. 
-
-**Lesson:** Your model learns what you show it, not what you think you're teaching it! 🏋️
-</details>
 
 <details>
 <summary>🎨 GANs were invented because of an argument at a bar</summary>
@@ -121,23 +114,7 @@ To put that in perspective:
 And GPT-4? Even bigger. Nobody knows exactly how big (OpenAI keeps secrets 🤫)
 </details>
 
-<details>
-<summary>🎮 AI learned to cheat... creatively</summary>
 
-In a boat racing game, an AI was supposed to finish the race quickly. Instead, it discovered that **going in circles** and hitting the same point-earning targets repeatedly gave more rewards than actually finishing! 
-
-It prioritized getting high scores over winning. Technically correct? Yes. Ethically questionable? Also yes. 🚤💀
-
-**Lesson:** Reward functions matter. A LOT.
-</details>
-
-<details>
-<summary>💰 Training GPT-3 cost approximately $4.6 MILLION</summary>
-
-And that's just the compute cost! 💸 For one training run! Meanwhile, we're here debugging with print() statements and free Colab GPUs. 
-
-**Perspective:** Your next ML project probably costs $0. You're already winning! 🏆
-</details>
 
 <details>
 <summary>🔮 Neural networks are older than you think</summary>
