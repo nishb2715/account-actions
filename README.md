@@ -79,7 +79,6 @@
 |---------|-------------|--------------|--------|
 | **Carbon Compass** 🌍 | AI system to predict & monitor carbon emissions using geospatial data | Python, TensorFlow, Geospatial Analysis | [Live Demo](https://carbonescompass.netlify.app/) |
 | **ThermoNyx** 🔥 | Thermal anomaly detection for drone images (MIT AI Hackathon) | Python, OpenCV, Computer Vision | [GitHub](https://github.com/Rinav01/ThermoNyx) |
-| **Smart Chatbot** 💬 | LLM-based chatbot with 30% improved query resolution | Python, LLMs, NLP | *Private Repo* |
 
 ---
 
@@ -184,10 +183,5 @@ And you do this **thousands of times** per batch. Per epoch. For **hundreds of e
 
 ![Visitors](https://komarev.com/ghpvc/?username=nishb2715&color=blue&style=flat)
 
-```ascii
-> logout successful
-> cache cleared ✓
-> see you at the next hackathon! 👋
-```
 
 </div>
