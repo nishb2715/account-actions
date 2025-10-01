@@ -17,8 +17,8 @@
 ║   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝                   ║
 ║                                                               ║
 ║   🚀 Welcome to Nishtha's AI Lab                             ║
-║   Status: Currently brewing neural networks ☕                ║
-║   Mode:Git Commit or Git Rekt                     ║
+║   Status: Currently brewing neural networks ☕               ║
+║   Mode:Git Commit or Git Rekt                                 ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
