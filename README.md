@@ -18,7 +18,7 @@
 ║                                                               ║
 ║   🚀 Welcome to Nishtha's AI Lab                             ║
 ║   Status: Currently brewing neural networks ☕                ║
-║   Mode: Hackathon Beast Mode Activated 🔥                     ║
+║   Mode:Git Commit or Git Rekt                     ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
