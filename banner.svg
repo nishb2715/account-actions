@@ -303,19 +303,7 @@
   
   <!-- Main Content -->
   <g>
-    <!-- Decorative corner brackets -->
-    <path d="M 280,90 L 260,90 L 260,110" stroke="url(#accentGradient)" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 920,90 L 940,90 L 940,110" stroke="url(#accentGradient)" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 280,210 L 260,210 L 260,190" stroke="url(#accentGradient)" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 920,210 L 940,210 L 940,190" stroke="url(#accentGradient)" stroke-width="2" fill="none" opacity="0.6" filter="url(#glow)">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-    </path>
+   
     
     <!-- Name with enhanced glow and letter spacing -->
     <text x="600" y="135" font-family="'Courier New', 'Fira Code', monospace" font-size="72" font-weight="900" fill="url(#nameGradient)" text-anchor="middle" filter="url(#strongGlow)" letter-spacing="8">
@@ -335,8 +323,3 @@
     
    
   
-  <!-- Bottom accent bars with holographic effect -->
-  <rect x="0" y="388" width="1200" height="4" fill="url(#nameGradient)" opacity="0.8" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="
