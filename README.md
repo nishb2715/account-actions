@@ -1,4 +1,31 @@
-<img src="https://emojis.slackmojis.com/emojis/images/1643515178/7307/blob-cute.gif?16430" width="30"/> **Hey there, I'm Nishtha!**
+# <img src="https://emojis.slackmojis.com/emojis/images/1643515178/7307/blob-cute.gif?16430" width="30"/> **Hey there, I'm Nishtha!**
+
+<div align="center">
+
+```ascii
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   > initializing profile...                                   ║
+║   > loading achievements... ✓                                 ║
+║   > deploying neural networks... ✓                            ║
+║                                                               ║
+║   ██╗  ██╗███████╗██╗     ██╗      ██████╗                   ║
+║   ██║  ██║██╔════╝██║     ██║     ██╔═══██╗                  ║
+║   ███████║█████╗  ██║     ██║     ██║   ██║                  ║
+║   ██╔══██║██╔══╝  ██║     ██║     ██║   ██║                  ║
+║   ██║  ██║███████╗███████╗███████╗╚██████╔╝                  ║
+║   ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝                   ║
+║                                                               ║
+║   🚀 Welcome to Nishtha's AI Lab                             ║
+║   Status: Currently brewing neural networks ☕                ║
+║   Mode: Hackathon Beast Mode Activated 🔥                     ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
 
 🎓 Third-year B.Tech CSE student @ KIIT University  
 🤖 AI/ML Enthusiast | Hackathon Winner | AI Intern @ Infosys  
@@ -7,7 +34,6 @@
 ---
 
 ## 🚀 About Me
-
 - 🔭 **Currently:** Working on AI-powered ML projects at **KIIT Robotics Society**
 - 🌱 **Learning:** Advanced Deep Learning architectures & MLOps
 - 💼 **Experience:** AI Intern @ Infosys
@@ -57,23 +83,110 @@
 
 ---
 
-## 📊 GitHub Analytics
+## 🎮 Interactive Challenge: Guess the Model Architecture!
 
-<div align="center">
+**Think you know your neural networks?** Take the quiz below! 👇
 
-![Nishtha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nishb2715&show_icons=true&theme=radical&hide_title=true)
+### Question 1: Image Classification Master
+**Architecture:** Input → Conv2D(64) → MaxPool → Conv2D(128) → MaxPool → Conv2D(256) → MaxPool → Flatten → Dense(512) → Dropout → Dense(10)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nishb2715&layout=compact&theme=radical&hide_title=true)
+<details>
+<summary>🤔 What model architecture family does this belong to?</summary>
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nishb2715&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true)
+**Answer: VGG-style CNN (Convolutional Neural Network)**
 
-</div>
+✅ **Why?** 
+- Sequential stacking of Conv layers with increasing filters (64→128→256)
+- MaxPooling after each conv block
+- Dense layers at the end for classification
+- Classic VGG pattern of doubling filters at each level
+
+**Use Case:** Image classification, object detection backbone
+</details>
+
+### Question 2: Sequence Predictor
+**Architecture:** Input → Embedding(10000, 128) → LSTM(128, return_sequences=True) → LSTM(64) → Dense(1, sigmoid)
+
+<details>
+<summary>🤔 What task is this model designed for?</summary>
+
+**Answer: Sequential/Text Classification (e.g., Sentiment Analysis)**
+
+✅ **Why?**
+- Embedding layer = text/sequence input
+- Stacked LSTM = capturing long-term dependencies
+- return_sequences=True in first LSTM = passing full sequence to next layer
+- Sigmoid output = binary classification
+
+**Use Case:** Sentiment analysis, spam detection, text classification
+</details>
+
+### Question 3: The Transformer
+**Architecture:** MultiHeadAttention → LayerNorm → FeedForward → LayerNorm → Residual Connections throughout
+
+<details>
+<summary>🤔 Name this revolutionary architecture!</summary>
+
+**Answer: Transformer Block**
+
+✅ **Why?**
+- Multi-Head Attention = parallel attention mechanisms
+- Layer Normalization after each sub-layer
+- Residual connections = helps gradient flow
+- No recurrence or convolution!
+
+**Use Case:** NLP (BERT, GPT), Vision Transformers, multimodal models
+
+**Fun Fact:** This architecture powers ChatGPT, Claude, and most modern LLMs! 🚀
+</details>
+
+### Question 4: Anomaly Hunter
+**Architecture:** Input(784) → Dense(128) → Dense(64) → Dense(32) → Dense(64) → Dense(128) → Output(784)
+
+<details>
+<summary>🤔 What's the special name for this architecture?</summary>
+
+**Answer: Autoencoder**
+
+✅ **Why?**
+- Encoder: 784 → 128 → 64 → 32 (compression)
+- Decoder: 32 → 64 → 128 → 784 (reconstruction)
+- Bottleneck layer (32) = compressed representation
+- Input size = Output size
+
+**Use Case:** Anomaly detection, dimensionality reduction, denoising, data compression
+</details>
+
+### Question 5: The GAN Generator
+**Architecture:** Input(100, noise) → Dense(256) → LeakyReLU → BatchNorm → Dense(512) → LeakyReLU → BatchNorm → Dense(1024) → LeakyReLU → Dense(784) → Tanh
+
+<details>
+<summary>🤔 What kind of model is this and what does it generate?</summary>
+
+**Answer: GAN Generator (Generative Adversarial Network)**
+
+✅ **Why?**
+- Starts with random noise (100-dim)
+- Progressively upsamples through Dense layers
+- LeakyReLU = prevents dying neurons
+- Tanh activation at output = values between [-1, 1]
+- Output (784) = 28x28 image (MNIST-like)
+
+**Use Case:** Generating synthetic images, data augmentation, style transfer
+
+**Bonus:** This likely generates handwritten digits! The discriminator network judges if they're real or fake 🎭
+</details>
 
 ---
 
-## 💡 Daily Inspiration
+**Your Score:** Click through all 5 questions! 🎯
+- 5/5 = 🏆 Neural Network Ninja
+- 4/5 = 🧠 ML Master
+- 3/5 = 💪 Deep Learning Apprentice
+- 2/5 = 📚 Keep Learning!
+- 1/5 = 🌱 Just Getting Started
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+**Challenge your friends!** Share this quiz and see who knows their architectures best! 🚀
 
 ---
 
@@ -96,5 +209,11 @@
 <div align="center">
 
 ![Visitors](https://komarev.com/ghpvc/?username=nishb2715&color=blue&style=flat)
+
+```ascii
+> logout successful
+> cache cleared ✓
+> see you at the next hackathon! 👋
+```
 
 </div>
